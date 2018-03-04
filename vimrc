@@ -7,6 +7,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Kien/ctrlp.vim'
+Plugin 'tpope/vim-endwise'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
