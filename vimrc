@@ -10,6 +10,7 @@ Plugin 'Kien/ctrlp.vim'
 Plugin 'tpope/vim-endwise'
 Plugin 'scrooloose/nerdtree'
 Plugin 'janko-m/vim-test'
+Plugin 'sheerun/vim-polyglot'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
