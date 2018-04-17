@@ -33,6 +33,8 @@ set autoindent
 set hls
 set number
 set smartindent
+set backupdir=/tmp
+set directory=/tmp
 
 nmap 0 ^
 
