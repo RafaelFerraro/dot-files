@@ -11,6 +11,7 @@ Plugin 'tpope/vim-endwise'
 Plugin 'scrooloose/nerdtree'
 Plugin 'janko-m/vim-test'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'vim-airline/vim-airline'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -25,6 +26,7 @@ nmap <silent> <leader>g :TestVisit<CR>
 
 map <C-n> :NERDTreeToggle<CR>
 map <C-f> :NERDTreeFind<CR>
+map <C-c> :w !pbcopy<CR>
 
 set tabstop=2
 set shiftwidth=2
