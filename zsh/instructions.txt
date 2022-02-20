@@ -1,0 +1,1 @@
+Usually, these files are placed inside ~/.zsh
