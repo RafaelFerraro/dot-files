@@ -1,1 +1,30 @@
-/Users/rguimaraes/Library/Application Support/Code/User/settings.json
+{
+    "workbench.colorTheme": "Default Dark+",
+    "files.insertFinalNewline": true,
+    "editor.fontSize": 14,
+    "vim.leader": "<Space>",
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["="],
+            "commands": [
+                "editor.action.reindentselectedlines"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before":["<C-n>"],
+            "commands": [
+                ":nohl",
+            ]
+        },
+        {
+            "before": ["leader", "w"],
+            "commands": [
+                "workbench.action.files.save",
+            ]
+        }
+    ],
+    "editor.tabSize": 2,
+    "window.zoomLevel": 1
+}
