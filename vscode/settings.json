@@ -28,3 +28,6 @@
     "editor.tabSize": 2,
     "window.zoomLevel": 1
 }
+
+// key repeating is disabled by default in mac os
+// here we can enable it for vscode vim https://vimforvscode.com/enable-key-repeat-vim
