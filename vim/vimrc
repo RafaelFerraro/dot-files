@@ -1,3 +1,4 @@
+" This file should be stored as ~/.vimrc
 " Before you need to install Vundle plugin manager
 " (https://github.com/VundleVim/Vundle.vim)
 set nocompatible

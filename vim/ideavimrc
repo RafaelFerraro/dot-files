@@ -1,0 +1,7 @@
+" This file should be stored as ~/.ideavimrc
+
+source ~/.vimrc
+
+" It is quite common to not be able to key-repeating when using vim for the first time in macos.
+" To enable key-repeating in vim on macos, type the following in the terminal
+" defaults write -g ApplePressAndHoldEnabled -bool false
